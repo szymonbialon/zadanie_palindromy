@@ -1,4 +1,12 @@
 def is_palindrome(word):
+    """Sprawdza, czy podane słowo (lub liczba) jest palindromem.
+
+      Args:
+          word (str or int): Słowo lub liczba do sprawdzenia.
+
+      Returns:
+          bool: True, jeśli słowo jest palindromem, inaczej False.
+      """
     word = str(word)
     return word == word[::-1]
 
